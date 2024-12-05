@@ -61,7 +61,7 @@ export default function Features02() {
                   <div className={`${category !== '1' && 'hidden'}`}>
                     <h3 className="h3 font-hkgrotesk mb-2">Fueling Community Growth</h3>
                     <div className="text-lg text-slate-500">
-                    KDAO invests in community-driven projects that strengthen the Kaspa ecosystem. From grassroots initiatives to ecosystem-wide collaborations, we fund programs that bring people together and build long-term value.
+                    KDAO funds community-driven projects that strengthen the Kaspa ecosystem. From grassroots initiatives to ecosystem-wide collaborations, we fund programs that bring people together and build long-term value.
                     </div>
                   </div>
                   <div className={`${category !== '2' && 'hidden'}`}>
