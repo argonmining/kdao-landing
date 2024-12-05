@@ -113,10 +113,6 @@ export default function Footer() {
           <div className="text-sm text-slate-600">
             <span className="text-slate-500">© 2024 Kaspa DAO</span>
           </div>
-          {/* Right-aligned text */}
-          <div className="text-sm text-slate-600 md:ml-auto">
-            <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="https://x.com/argonmining">Built with ❤️ by Ashton</a>
-          </div>
         </div>
       </div>
     </footer>
