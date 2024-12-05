@@ -45,14 +45,14 @@ export default function Features02() {
                         }`}
                       onClick={() => setCategory('2')}
                     >
-                      Educational Resources
+                      Infrastructure Support
                     </button>
                     <button
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${category === '3' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
                         }`}
                       onClick={() => setCategory('3')}
                     >
-                      Infrastructure Support
+                      Educational Resources
                     </button>
                   </div>
                 </div>
@@ -61,19 +61,19 @@ export default function Features02() {
                   <div className={`${category !== '1' && 'hidden'}`}>
                     <h3 className="h3 font-hkgrotesk mb-2">Fueling Community Growth</h3>
                     <div className="text-lg text-slate-500">
-                    KDAO funds community-driven projects that strengthen the Kaspa ecosystem. From grassroots initiatives to ecosystem-wide collaborations, we fund programs that bring people together and build long-term value.
+                      KDAO funds community-driven projects that strengthen the Kaspa ecosystem. From grassroots initiatives to ecosystem-wide collaborations, we fund programs that bring people together and build long-term value.
                     </div>
                   </div>
                   <div className={`${category !== '2' && 'hidden'}`}>
                     <h3 className="h3 font-hkgrotesk mb-2">Building the Backbone</h3>
                     <div className="text-lg text-slate-500">
-                    KDAO funds and supports essential infrastructure projects, including developer tools, node infrastructure, and scaling solutions. These initiatives form the foundation of a robust, resilient Kaspa network.
+                      KDAO funds and supports essential infrastructure projects, including developer tools, node infrastructure, and scaling solutions. These initiatives form the foundation of a robust, resilient Kaspa network.
                     </div>
                   </div>
                   <div className={`${category !== '3' && 'hidden'}`}>
                     <h3 className="h3 font-hkgrotesk mb-2">Educating the Ecosystem</h3>
                     <div className="text-lg text-slate-500">
-                    KDAO believes in empowering the community with knowledge. We fund the creation of educational materials, workshops, and guides that make Kaspa accessible to everyone, from newcomers to experienced developers.
+                      KDAO believes in empowering the community with knowledge. We fund the creation of educational materials, workshops, and guides that make Kaspa accessible to everyone, from newcomers to experienced developers.
                     </div>
                   </div>
                 </div>
